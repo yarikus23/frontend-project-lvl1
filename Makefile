@@ -6,5 +6,5 @@ brain-games: # execute file bin/brain-games.js
 	node bin/brain-games.js
 publish:
 	npm publish --dry-run
-lint:
+lint: # execute eslint
 	npx eslint .
