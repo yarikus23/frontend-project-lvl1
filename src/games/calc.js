@@ -27,4 +27,8 @@ const getExtension = () => {
   return array;
 };
 
-getDialog(getExtension());
+const execute = () => {
+  getDialog(getExtension());
+};
+
+export default execute;
