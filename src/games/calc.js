@@ -8,10 +8,10 @@ const getExtension = () => {
   const array = [];
   for (let i = 0; i < 3; i += 1) {
     let result;
-    const firstOperand = getRandomNum(100);
-    const secondOperand = getRandomNum(100);
+    const firstOperand = getRandomNum(0, 100);
+    const secondOperand = getRandomNum(0, 100);
     const operations = ['+', '-', '*'];
-    const currentOperation = operations[getRandomNum(3)];
+    const currentOperation = operations[getRandomNum(0, 3)];
     const ask = `${firstOperand} ${currentOperation} ${secondOperand}`;
     if (currentOperation === '+') {
       result = firstOperand + secondOperand;

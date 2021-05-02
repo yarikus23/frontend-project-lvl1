@@ -9,8 +9,8 @@ const getExtension = () => {
   for (let i = 0; i < 3; i += 1) {
     let result;
     let fewerNum;
-    const firstNum = getRandomNum(100);
-    const secondNum = getRandomNum(100);
+    const firstNum = getRandomNum(1, 100);
+    const secondNum = getRandomNum(1, 100);
     const ask = `${firstNum} ${secondNum}`;
     if (firstNum < secondNum) {
       fewerNum = firstNum;

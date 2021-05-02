@@ -8,7 +8,7 @@ const getExtension = () => {
   const array = [];
   for (let i = 0; i < 3; i += 1) {
     let result;
-    const checkNum = getRandomNum(100);
+    const checkNum = getRandomNum(0, 100);
     if (checkNum % 2 === 0) {
       result = 'yes';
     } else result = 'no';
