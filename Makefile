@@ -16,3 +16,6 @@ brain-gcd: # execute file bin/brain-gcd.js
 	node bin/brain-gcd.js
 brain-progression: # execute file bin/brain-progression.js
 	node bin/brain-progression.js
+brain-prime: # execute file bin/brain-prime.js
+	node bin/brain-prime.js
+	
