@@ -14,3 +14,5 @@ brain-calc: # execute file bin/brain-calc.js
 	node bin/brain-calc.js
 brain-gcd: # execute file bin/brain-gcd.js
 	node bin/brain-gcd.js
+brain-progression: # execute file bin/brain-progression.js
+	node bin/brain-progression.js
